@@ -1,1 +1,13 @@
-test commit 1
+commit 2 test
+
+git log
+
+kalo ingin kembali ke commit sebelumnya brati komit terakhir di revert
+
+git revert (hash commit)
+lalu push
+
+kalo ada 3 commit misal 1, 2, 3 lalu ingin kembali ke 1 maka gunakan 
+
+git reset --hard (hash ke 1)
+git push origin satrio --force
