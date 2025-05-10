@@ -1,13 +1,25 @@
-commit 2 test
 
 git log
 
-kalo ingin kembali ke commit sebelumnya brati komit terakhir di revert
-
+--kalo ingin kembali ke commit sebelumnya brati komit terakhir di revert
 git revert (hash commit)
 lalu push
 
-kalo ada 3 commit misal 1, 2, 3 lalu ingin kembali ke 1 maka gunakan 
-
+--kalo ada 3 commit misal 1, 2, 3 lalu ingin kembali ke 1 maka gunakan 
 git reset --hard (hash ke 1)
 git push origin satrio --force
+
+
+-- kalo misal sudah dimerge di main
+-- dan ingin kembali ke merge sebelumnya
+ + git log --oneline
+ + git revert -m 1 (hash-commit-merge)
+ + push
+
+-- kalau ingin menentukan merge yang mana misal dari 1, 2, 3 pilih 1 maka
++ git log --oneline
++ git reset --hard (hash yang dituju)
++ git push origin main --force
+
+
+kalau kembali pencet q, :wq
