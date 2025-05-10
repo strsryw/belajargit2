@@ -21,5 +21,6 @@ git push origin satrio --force
 + git reset --hard (hash yang dituju)
 + git push origin main --force
 
-
-kalau kembali pencet q, :wq
+*catatan
+- kalau kembali pencet q, :wq
+- git checkout HEAD . untuk mengembalikan file ke commit terakhir
