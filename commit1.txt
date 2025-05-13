@@ -34,7 +34,7 @@ git push origin satrio --force
 
 
 #mengabaikan file
-git rm --cached index.html
+git rm --cached index.html kalau folder maka git rm --cached -r ignore2/
 echo "index.html" >> .gitignore
 git add .gitignore
 git commit -m "Stop tracking index.html"
