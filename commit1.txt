@@ -30,3 +30,4 @@ git push origin satrio --force
 - kalau kembali pencet q, :wq
 - git checkout HEAD . untuk mengembalikan file yang dihapus ke commit terakhir
 - git merge --no-ff satrio agar tdk lgsg fast forward
+- git diff untuk mengetahui detail perbedaan yang terjadi 
