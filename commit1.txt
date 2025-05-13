@@ -31,3 +31,11 @@ git push origin satrio --force
 - git checkout HEAD . untuk mengembalikan file yang dihapus ke commit terakhir
 - git merge --no-ff satrio agar tdk lgsg fast forward
 - git diff untuk mengetahui detail perbedaan yang terjadi 
+
+
+#mengabaikan file
+git rm --cached index.html
+echo "index.html" >> .gitignore
+git add .gitignore
+git commit -m "Stop tracking index.html"
+git push
