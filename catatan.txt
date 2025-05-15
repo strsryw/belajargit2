@@ -39,3 +39,7 @@ echo "index.html" >> .gitignore
 git add .gitignore
 git commit -m "Stop tracking index.html"
 git push
+
+#delete branch
+branch lokal -> git branch -d satrio
+branch repo -> git push origin --delete satrio
